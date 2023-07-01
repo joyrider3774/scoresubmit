@@ -2,7 +2,7 @@
 Repo containing code to submit scores to your own created leaderboards on https://scores.joyrider3774.xyz with QR Codes or directly
 
 ## Leaderboards
-I expanded a [site](https://scores.joyrider3774.xyz) someone created on github to submit score so you can create your own leaderboards and let people submit scores to them by generating QR Codes, or doing http calls.
+I expanded a [site](https://scores.joyrider3774.xyz) someone created on [github](https://github.com/levidsmith/LeaderboardExample) to submit score so you can create your own leaderboards and let people submit scores to them by generating QR Codes, or doing http calls.
 It originated from an idea i proposed on playdate discord.
 
 ## Score Submitting Support
