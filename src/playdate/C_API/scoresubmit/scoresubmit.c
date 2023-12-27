@@ -4,6 +4,10 @@
 #include "base64.h"
 #include "hmacsha1.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 //https://gist.github.com/jesobreira/4ba48d1699b7527a4a514bfa1d70f61a
 char* urlencode(PlaydateAPI* pd, char* originalText)
 {
@@ -60,3 +64,7 @@ LCDBitmap* CreateQrCodeSubmit(PlaydateAPI* pd, char* secret_key, unsigned int ga
 	//pd->system->logToConsole("%u", pd->system->getCurrentTimeMilliseconds() - t);
 	return result;
 }
+
+#ifdef __cplusplus
+}
+#endif
